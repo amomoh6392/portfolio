@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+
+    #menu-button {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        position: static;
+        width: auto;
+        border: none;
+        padding: 0;
+        gap: 1rem;
+    }
+    .navigation a {
+        padding: 0.5rem;
+    }
+    .hero {
+        padding: 7rem 0;
+    }
+    .hero-container {
+        grid-template-columns: 2fr 1fr;
+    }
+    .hero-image {
+           justify-content: center;
+       }
+    .profile-placeholder {
+        width: 300px;
+        height: 300px;
+    }
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .project-preview-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grids {
+        grid-template-columns: 2fr 1fr 1fr;
+        align-items: center;
+    }
+}
