@@ -6,6 +6,7 @@
     .navigation {
         display: flex;
         position: static;
+        background-color: transparent;
         width: auto;
         border: none;
         padding: 0;
@@ -15,7 +16,7 @@
         padding: 0.5rem;
     }
     .hero {
-        padding: 7rem 0;
+        padding: 2.5rem 0;
     }
     .hero-container {
         grid-template-columns: 2fr 1fr;
@@ -34,7 +35,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .grids {
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
 }
