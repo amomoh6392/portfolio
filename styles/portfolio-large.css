@@ -38,4 +38,36 @@
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
+    /* About Page */
+
+    .about-hero {
+        padding: 6rem 0;
+    }
+    .about-image {
+        justify-content: flex-start;
+    }
+    .about-image img {
+        width: 350px;
+        height: 350px;
+    }
+    .about-grid {
+        grid-template-columns: 1fr 1.5fr;
+        gap: 5rem;
+    }
+    .about-skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .education-card {
+        grid-template-columns: 120px 1fr;
+        align-items: start;
+        padding: 2rem;
+    }
+
+    .about-section,
+    .about-skills,
+    .education-section,
+    .career-section {
+        padding: 6rem 0;
+    }
 }
