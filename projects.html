@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Abinadi Momoh Oke  portfolio</title>
+    <meta name="description" content="Abinadi Momoh Oke - Projects portfolio of Abinadi Momoh Oke, a software development student and aspiring front-end developer.">
+    <meta name="author" content="Abinadi Momoh Oke">
+    <meta property="og:title" content="Abinadi Momoh Oke Portfolio - Projects">
+    <meta property="og:description" content="Abinadi Momoh Oke - Projects portfolio of Abinadi Momoh Oke, a software development student and aspiring front-end developer.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://amomoh6392.github.io/portfolio/images/profile.jpg">
+    <meta property="og:url" content="https://amomoh6392.github.io/portfolio/">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/portfolio-large.css">
+    <script src="scripts/main.js" defer></script>
+    <script type="module" src="scripts/projects.mjs"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="AM@17 Dev Portfolio logo" width="50" height="50" loading="lazy">
+                <span>Momoh Abinadi Oke Portfolio</span>
+            </a>
+            <button id="menu-button" aria-label="Open navigation menu">☰</button>
+            <nav id="navigation" class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a href="resume.html">Resume</a>
+            </nav>
+        </div>  
+    </header>
+    <main>
+        <section class="projects-hero">
+            <div class="container">
+                <div class="project-hero-content">
+                    <p class="info">My Work</p>
+                    <h1>Projects that show what I can build.</h1>
+                    <p>Explore some of my web development and software projects. Each project represents practical experience solving problems, building interfaces, and applying software development skills.</p>
+                </div>
+            </div>
+        </section>
+        <section class="projects-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="info">Featured Projects</p>
+                    <h2>Selected work</h2>
+                    <p>A selection of projects demonstrating my experience with front-end development, programming, responsive design,and problem solving</p>
+                </div>
+                <div class="project-filters" aria-label="project-filters">
+                    <button class="filter-button active" type="button" data-filter="all">All</button>
+                    <button class="filter-button" type="button" data-filter="web">Web Development</button>
+                    <button class="filter-button" type="button" data-filter="software">Software</button>
+                </div>
+                <div id="projects-grid" class="projects-grid"></div>
+            </div>
+        </section>
+        <section class="cta project-cta">
+            <div class="container cta-container">
+                <p class="info">Let's Work Together</p>
+                <h2>Have a project or opportunity?</h2>
+                <p>I'm interested in opportunities where I can contribute to a team, learn, and developing my skills.</p>
+                <a href="contact.html" class="button primary-button"> Contact Me</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+       <section class="grids">
+            <div class="grid">
+                <p>AM@17 Dev Portfolio Video:
+                    <a href=https://www.loom.com/share/127d0f380ccb453cb234a7cbe9cbd492 target="_blank" rel="noopener noreferrer">🎥 View Project Video</a>
+                </p>
+                <p><a href="attributions.html">Attributions</a></p>
+                <p><a href="mailto:abinadimomoh00@gmail.com">abinadimomoh00@gmail.com</a></p>
+                <p><a href="tel:+2348168573561">(+234)8168573561</a></p>
+            </div>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/abinadi-momoh-204575205" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                    <img src="images/linkedin-logo.svg" alt="LinkedIn" width="60" height="50" loading="lazy">
+                </a>
+                <a href="https://github.com/amomoh6392"
+                    aria-label="Visit my GitHub profile"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/github.svg" alt="GitHub" width="60" height="50" loading="lazy">
+                </a>
+            </div>
+            <div class="personal">
+                <p>AM@17 Portfolio</p>
+                <p>ABINADI MOMOH OKE</p>
+                <p>&copy; ※<span id="currentyear"></span>※ Warri, Delta state Nigeria ※ </p>
+                <p id="lastModified"></p>
+            </div>
+       </section>
+    </footer>
+</body>
+</html>
+

@@ -3,12 +3,13 @@
     "id": "chamber-directory",
     "title": "Chamber Directory",
     "description": "A responsive business directory displaying chamber members dynamically from JSON data.",
-    "technology": "HTML, CSS, JavaScript",
+    "technology": ["HTML, CSS, JavaScript"],
     "category": "Web Development",
     "year": "2026",
     "status": "Completed",
-    "image": "images/chamber-directory.webp",
-    "link": "https://amomoh6392.github.io/wdd231/chamber/directory.html"
+    "image": "images/chamber.webp",
+    "live": "https://amomoh6392.github.io/wdd231/chamber/directory.html",
+    "github":"https://github.com/amomoh6392/wdd231/tree/main/chamber"
   },
   {
     "id": "predictive-maintenance",
@@ -19,30 +20,32 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/predictive-maintenance.webp",
-    "link": "https://github.com/amomoh6392/Am17Cse210"
+    "github": "https://github.com/amomoh6392/Am17Cse210/tree/main/project"
 
   },
   {
     "id": "study-germany",
     "title": "Study in Germany",
     "description": "An informational website helping students explore universities, scholarships, and study opportunities in Germany.",
-    "technology": "HTML, CSS, JavaScript",
-    "category": "Education",
+    "technology": ["HTML, CSS, JavaScript"],
+    "category": "Web Development",
     "year": "2026",
     "status": "Completed",
-    "image": "images/study-germany.webp",
-    "link": "https://amomoh6392.github.io/wdd131/project"
+    "image": "images/study-in-germany.webp",
+    "live": "https://amomoh6392.github.io/wdd131/project",
+    "github":"https://github.com/amomoh6392/wdd131/tree/main/project"
   },
   {
     "id": "portfolio-website",
     "title": "Portfolio Website",
     "description": "A personal portfolio showcasing projects, skills, education, and professional growth.",
     "technology": "HTML, CSS, JavaScript",
-    "category": "Portfolio",
+    "category": "Web Development",
     "year": "2026",
     "status": "Completed",
     "image": "images/portfolio-website.webp",
-    "link": "https://amomoh6392.github.io/wdd231/finalproject/"
+    "live": "https://amomoh6392.github.io/wdd231/finalproject/",
+    "github":"https://github.com/amomoh6392/wdd231/tree/main/finalproject"
   },
   {
     "id": "temple-album",
@@ -53,7 +56,8 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/temple-album.webp",
-    "link": "https://amomoh6392.github.io/wdd131/filtered-temples.html"
+    "live": "https://amomoh6392.github.io/wdd131/filtered-temples.html",
+    "github":"https://github.com/amomoh6392/wdd131/blob/main/temples.html"
   },
   {
     "id": "product-review-form",
@@ -64,7 +68,8 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/product-review-form.webp",
-    "link": "https://amomoh6392.github.io/wdd131/form.html"
+    "live": "https://amomoh6392.github.io/wdd131/form.html",
+    "github":"https://github.com/amomoh6392/wdd131/blob/main/form.html"
   },
   {
     "id": "bom-top10-app",
@@ -75,7 +80,8 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/bom-top10-app.webp",
-    "link": "https://abinadimomoh.github.io/wdd131/bom.html"
+    "live": "https://amomoh6392.github.io/wdd131/week02/bom.html",
+    "github":"https://github.com/amomoh6392/wdd131/tree/main/week02"
   },
   {
     "id": "rafting-website",
@@ -86,7 +92,8 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/rafting-website.webp",
-    "link": "https://amomoh6392.github.io/wdd130/wwr/index.html"
+    "live": "https://amomoh6392.github.io/wdd130/wwr/index.html",
+    "github":"https://github.com/amomoh6392/wdd130/tree/main/wwr"
   },
   {
     "id": "wdd231-home-page",
@@ -97,7 +104,8 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/wdd231-home-page.webp",
-    "link": "https://amomoh6392.github.io/wdd231/"
+    "live": "https://amomoh6392.github.io/wdd231/",
+    "github":"https://github.com/amomoh6392/wdd231/blob/main/index.html"
   },
   {
     "id": "journal-program",
@@ -108,7 +116,7 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/journal-program.webp",
-    "link": "https://github.com/amomoh6392/Am17Cse210"
+    "github": "https://github.com/amomoh6392/Am17Cse210/tree/main/week02/Journal"
     
   },
   {
@@ -121,19 +129,8 @@
   "year": "2026",
   "status": "Completed",
   "image": "images/order-management-system.webp",
-  "link": "https://github.com/amomoh6392/Am17Cse210"
+  "link": "https://github.com/amomoh6392/Am17Cse210/tree/main/week04/OnlineOrdering"
 
-  },
-  {
-    "id": "am17-chamber-discover",
-    "title": "AM@17 Chamber Membership Discover Page",
-    "description": "A responsive discover page displaying chamber membership information and local highlights.",
-    "technology": "HTML, CSS, JavaScript",
-    "category": "Web Development",
-    "year": "2026",
-    "status": "Completed",
-    "image": "images/am17-chamber-discover.webp",
-    "link": "https://amomoh6392.github.io/wdd231/chamber/discover.html"
   },
   {
     "id": "scripture-memorizer",
@@ -144,7 +141,7 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/scripture-memorizer.webp",
-    "link": "https://github.com/amomoh6392/Am17Cse210"
+    "github": "https://github.com/amomoh6392/Am17Cse210/tree/main/week03/ScriptureMemorizer"
   },
   {
     "id": "mindfulness-program",
@@ -155,7 +152,7 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/mindfulness-program.webp",
-    "link": "https://github.com/amomoh6392/Am17Cse210"
+    "github": "https://github.com/amomoh6392/Am17Cse210/tree/main/week05/Mindfulness"
   },
   {
     "id": "eternal-quest",
@@ -166,7 +163,7 @@
     "year": "2026",
     "status": "Completed",
     "image": "images/eternal-quest.webp",
-    "link": "https://github.com/amomoh6392/Am17Cse210"
+    "github": "https://github.com/amomoh6392/Am17Cse210/tree/main/week06/EternalQuest"
   }
 ]
 
