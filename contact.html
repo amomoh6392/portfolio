@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact | Abinadi Momoh Oke </title>
+    <meta name="description" content="Contact Abinadi Momoh, a front-end developer and software development student.">
+    <meta name="author" content="Abinadi Momoh Oke">
+    <meta property="og:title" content="Abinadi Momoh Oke Portfolio - contact">
+    <meta property="og:description" content="Abinadi Momoh Oke - Contact Abinadi Momoh, a front-end developer and software development student.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://amomoh6392.github.io/portfolio/images/profile.jpg">
+    <meta property="og:url" content="https://amomoh6392.github.io/portfolio/">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/portfolio-large.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="AM@17 Dev Portfolio logo" width="50" height="50" loading="lazy">
+                <span>Momoh Abinadi Oke </span>
+            </a>
+            <button id="menu-button" aria-label="Open navigation menu">☰</button>
+            <nav id="navigation" class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="resume.html">Resume</a>
+            </nav>
+        </div>  
+    </header>
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="info">Get In Touch</p>
+                    <h1>Let's Work Together</h1>
+                    <p>I'm interested in front-end development, software development, and opportunities where I can continue growing as a developer.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="container contact-grid">
+                <div class="contact-information">
+                    <p class="info">Contact Me</p>
+                    <h2>Let's Connect</h2>
+                    <p>Whether you have a job opportunity, a project idea, or simply want to connect, feel free to reach out.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <a href="mailto:abinadimomoh00@gmail.com">abinadimomoh00@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/amomoh6392" target="_blank" rel="noopener">github.com/amomoh6392</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/abinadi-momoh-204575205" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <p>Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h2>Send Me a Message</h2>
+                    <form id="contactForm" class="contact-form" method="post" action="https://formspree.io/f/mgaeogev">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" autocomplete="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" autocomplete="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <input
+                            type="hidden"
+                            name="_next"
+                            value="https://amomoh6392.github.io/portfolio/thankyou.html">
+                        <button type="submit" class="primary-button"> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="contact-cta">
+            <div class="container">
+                <p class="info">Career Opportunities</p>
+                <h2>Looking for a Developer?</h2>
+                <p>I'm open to opportunities where I can contribute my skills, learn from experienced developers, and grow professionally.</p>
+                <a href="documents/Abinadi-Momoh-Resume.pdf" class="secondary-button" target="_blank" rel="noopener">View My Resume</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+       <section class="grids">
+            <div class="grid">
+                <p class="personal">Built with HTML, CSS, and JavaScript.</p>
+                <p><a href="attributions.html">Attributions</a></p>
+                <p><a href="mailto:abinadimomoh00@gmail.com">abinadimomoh00@gmail.com</a></p>
+                <p><a href="tel:+2348168573561">(+234)8168573561</a></p>
+            </div>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/abinadi-momoh-204575205" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                    <img src="images/linkedin-logo.svg" alt="LinkedIn" width="60" height="50" loading="lazy">
+                </a>
+                <a href="https://github.com/amomoh6392"
+                    aria-label="Visit my GitHub profile"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/github.svg" alt="GitHub" width="60" height="50" loading="lazy">
+                </a>
+            </div>
+            <div class="personal">
+                <p>AM@17 Portfolio</p>
+                <p>ABINADI MOMOH OKE</p>
+                <p>&copy; ※<span id="currentYear"></span>※ Warri, Delta state Nigeria ※ </p>
+                <p id="lastModified"></p>
+            </div>
+       </section>
+    </footer>
+</body>
+</html>
+
