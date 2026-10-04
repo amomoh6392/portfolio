@@ -164,6 +164,32 @@
     "status": "Completed",
     "image": "images/eternal-quest.webp",
     "github": "https://github.com/amomoh6392/Am17Cse210/tree/main/week06/EternalQuest"
-  }
+  },
+{
+  "id": "sleep-outside",
+  "title": "Sleep Outside E-Commerce Website",
+  "description": "A team-built outdoor e-commerce website where users can browse camping products, view product details, add items to a shopping cart, and complete a checkout process.",
+  "category": "Web Development",
+  "image": "images/sleep-outside.webp",
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Vite",
+    "REST API",
+    "Git",
+    "GitHub"
+  ],
+  "features": [
+    "Dynamic product listings",
+    "Product detail pages",
+    "Shopping cart",
+    "Checkout process",
+    "API integration",
+    "Responsive design"
+  ],
+  "github": "https://github.com/Am17Cse210/sleep-outside-team17",
+  "live": "https://sleep-outside-team17.onrender.com"
+}
 ]
 
