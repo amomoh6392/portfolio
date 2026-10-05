@@ -594,7 +594,6 @@ footer a:hover {
 }
 .contact-item h3 {
     font-family: var(--heading-font);
-    color: var(--accent-color);
     margin-bottom: 0.25rem;
 }
 .contact-item p,
@@ -686,8 +685,6 @@ footer a:hover {
     margin-left: .5rem;
 }
 
-/*RESUME PAGE*/
-
 
 .resume-page {
   max-width: 1200px;
@@ -734,28 +731,25 @@ footer a:hover {
 
 .resume-layout {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 
-.resume-sidebar {
-  background: #f9fafb;
-  padding: 1.5rem;
+.resume-sidebar,.resume-main  {
+  background:var(--surface-color);
+  padding: 1.25rem;
   border-radius: 12px;
-  border: 1px solid #cbd5e1;
+  border: 1px solid var(--border-color);
   align-self: start;
-}
-
-.resume-main {
-  background: #ffffff;
 }
 
 .resume-section {
   margin-bottom: 2rem;
+ color: var(--text-color);
 }
 
 .resume-section h2 {
-  color: #064e3b;
+  color:var(--primary-color);
   font-family: "Poppins", sans-serif;
   font-size: 1.35rem;
   margin: 0 0 1rem;
@@ -767,10 +761,6 @@ footer a:hover {
   margin-bottom: 1.75rem;
 }
 
-.resume-item:last-child {
-  margin-bottom: 0;
-}
-
 .resume-item-header {
   display: flex;
   justify-content: space-between;
@@ -780,27 +770,27 @@ footer a:hover {
 
 .resume-item h3 {
   margin: 0;
-  color: #111827;
+  color: var(--background-color);
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
 }
 
 .resume-role {
   margin: 0.2rem 0 0.5rem;
-  color: #374151;
+  color:var(--muted-text) ;
   font-weight: 600;
 }
 
 .resume-date {
-  color: #064e3b;
+  color: var(--primary-color);
   font-size: 0.9rem;
   font-weight: 700;
   white-space: nowrap;
 }
 
-.resume-item p {
+.resume-item  {
   line-height: 1.7;
-  color: #374151;
+  color: var(--text-color);
 }
 
 .resume-list {
@@ -811,35 +801,7 @@ footer a:hover {
 .resume-list li {
   margin-bottom: 0.55rem;
   line-height: 1.6;
-  color: #374151;
-}
-
-.resume-contact {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.resume-contact li {
-  margin-bottom: 1rem;
-  line-height: 1.5;
-}
-
-.resume-contact strong {
-  display: block;
-  color: #064e3b;
-  margin-bottom: 0.2rem;
-}
-
-.resume-contact a {
-  color: #374151;
-  text-decoration: none;
-  overflow-wrap: anywhere;
-}
-
-.resume-contact a:hover {
-  color: #064e3b;
-  text-decoration: underline;
+  color:var(--text-color);
 }
 
 .skill-list {
@@ -861,24 +823,6 @@ footer a:hover {
   flex-shrink: 0;
 }
 
-.btn {
-  display: inline-block;
-  padding: 0.8rem 1.2rem;
-  border-radius: 6px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-}
 
-.btn-primary {
-  background: #d4af37;
-  color: #111827;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  background: #f7e7ce;
-}
 
 

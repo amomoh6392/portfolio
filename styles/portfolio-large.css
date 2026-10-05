@@ -96,13 +96,7 @@
 .contact-cta {
     padding: 6rem 0;
 }
-}
-
-/* RESUME DESKTOP LAYOUT */
-
-@media screen and (min-width: 768px) {
-
-  .resume-page {
+.resume-page {
     padding: 4rem 2rem;
   }
 
@@ -124,4 +118,6 @@
     top: 2rem;
   }
 }
+
+
 
